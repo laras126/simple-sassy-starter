@@ -1,0 +1,90 @@
+
+// ---
+// Screen sizes
+// ---
+
+// Read this NOW:
+// http://bradfrostweb.com/blog/post/7-habits-of-highly-effective-media-queries/
+
+// "Start with the small screen first, then expand until it looks like shit. Time for a breakpoint!"
+// -Stephen Hay
+
+$screen-sm: 		30em;
+$screen-md: 		48em;
+$screen-lg: 		60em;
+
+
+
+// ---
+// Colors
+// ---
+
+// Aw man, I love Kuler:
+// http://adobe.ly/1wwZ0Rk
+
+$dark-blue: 		#334D5C;
+$teal: 				#45B29D;
+$yellow: 			#EFC94C;
+$orange: 			#E27A3F;
+$red: 				#DF4949;
+
+
+// Semantic color names
+// http://thesassway.com/beginner/variable-naming
+
+$light-accent: 		$yellow;
+$med-accent: 		$teal;
+$dark-accent:		$dark-blue;
+
+$link: 				$orange;
+$link-hover: 		darken($orange, 20%);
+$link-active: 		darken($orange, 60%);
+
+
+
+// ---
+// Scale
+// Use these values for font sizes, margins, padding, everything!
+// ---
+
+// But also look into Modular Scale: 
+// https://github.com/Team-Sass/modular-scale
+
+// This is cool, not doing it here though:
+// http://css-tricks.com/rems-ems/
+
+// (let's clap for Chris Coyier for a sec, please)
+
+// About rems:
+// http://snook.ca/archives/html_and_css/font-size-with-rem
+
+$base:  			1rem;
+$sml:  				$base*0.8;
+
+$h1:  				$base*2.6;
+$h2:  				$base*2.2;
+$h3:  				$base*1.8;
+$h4:  				$base*1.4;
+$h5:  				$base*1.2;
+$h6:  				$sml;
+
+
+
+// ---
+// Typography
+// ---
+
+$sans-serif: 		Helvetica, sans-serif;
+$serif:             Georgia, serif;
+
+$body-line-height: 	1.5;
+
+
+
+// ----
+// Helpers
+// ----
+
+$border: 1px dotted $med-accent;
+
+

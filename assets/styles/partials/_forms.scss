@@ -1,0 +1,12 @@
+// Forms here - probably a lot of root styles like:
+
+textarea,
+input[type="text"],
+input[type="search"] { // etc, etc
+	border: 1px solid $dark-accent;
+	padding: $h3 $base;
+}
+
+input[type="submit"] {
+	@include button($dark-accent);
+}
