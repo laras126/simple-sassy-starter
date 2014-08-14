@@ -17,7 +17,7 @@ _Disclaimer: Everyone does this differently, this is how I do it!_
 
 **Note:** When you are ready to launch, minify your code with ```sass --watch main.scss:main.min.css --style compressed``` and change the ```<link>``` in your ```<head>``` to main.min.css. There are [more efficient ways](http://addyosmani.com/blog/environment-specific-builds-with-grunt-gulp-or-broccoli/) to do manage dev and production environments with a [task runner like Grunt](http://blog.cozycloud.cc/technic/2014/06/18/task-runners-comparison/), but that's another conversation!
 
-**Another note:** I included folders for JavaScript, fonts, and images - it's nice to keep all of this in the assets folder. Also add a 'fonts' folder if you have any of those. But up to you!
+**Another note:** I included folders for JavaScript and images - it's nice to keep all of this in the assets folder. Also add a 'fonts' folder if you have any of those. But up to you!
 
 #Using this with WordPress
 
