@@ -1,6 +1,6 @@
 #What is this?
 
-A guide for structuring your Sass projects within and without WordPress.
+I feel like there aren't many super stripped down resources for starting out with Sass - everything seems to jump straight into mixins and frameworks and all that. This is a super simple setup for your Sass projects that can be used anywhere.
 
 **IMPORTANT:** This is **not** a stand alone website or theme. It's an assets folder meant to be dropped into an existing theme or site.
 
