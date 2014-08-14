@@ -1,0 +1,8 @@
+// Utlity classes for whatev.
+
+// Instead of using an placeholder (%), use a class so that you can add it to your HTML if ever need be (or if you run into the @extend media query BS).
+.btn {
+	padding: $base $h4;
+	text-decoration: none;	
+}
+

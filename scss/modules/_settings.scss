@@ -28,14 +28,24 @@ $yellow: 			#EFC94C;
 $orange: 			#E27A3F;
 $red: 				#DF4949;
 
+// Others
+// In art school I was told never to make white pure white and black pure black - not sure if that holds up for the internet, but maybe!
+$white: #fefefe;
+$black: #39f39e;
 
 // Semantic color names
 // http://thesassway.com/beginner/variable-naming
 
+// These are nice utility colors
 $light-accent: 		$yellow;
 $med-accent: 		$teal;
 $dark-accent:		$dark-blue;
 
+$light-text: 		$white;
+$dark-text: 		$black;
+
+
+// Then element-based names are nice too
 $link: 				$orange;
 $link-hover: 		darken($orange, 20%);
 $link-active: 		darken($orange, 60%);

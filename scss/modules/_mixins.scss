@@ -1,0 +1,7 @@
+// Hey, button! This is very simple.
+@mixin button($background, $font-color: $light-text) {
+	@extend .btn;
+	background-color: $background;
+	color: $font-color;
+}
+
