@@ -19,7 +19,7 @@ _Disclaimer: Everyone does this differently, this is how I do it!_
 
 **tl;dr Always minify your code.** But it's best to not while you are in a development environment - easier for debugging.
 
-Another note: I included folders for JavaScript, fonts, and images - it's nice to keep all of this in the assets folder. Change as you will!
+Another note: I included folders for JavaScript, fonts, and images - it's nice to keep all of this in the assets folder. Also add a 'fonts' folder if you have any of those. But up to you!
 
 #Using this with WordPress
 
