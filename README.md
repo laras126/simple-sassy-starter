@@ -100,7 +100,7 @@ Here are some examples of cool stuff Sass can do. Lots more at the [Sass site's 
 #Further Reading
 There are lots of links in the code, esp. in _settings.scss, but here are some others:
 
-###Misc Sass Resources
+###Misc Sass/CSS Resources
 
 * [Preprocessing is for Everyone](http://aneventapart.com/news/post/preprocessing-is-for-everybody-chris-coyier-an-event-apart-video-css-sass) - Chris Coyier
 * [Are we getting too Sassy?](http://ashleynolan.co.uk/blog/are-we-getting-too-sassy) - Ashley Nolan
@@ -108,14 +108,15 @@ There are lots of links in the code, esp. in _settings.scss, but here are some o
 * [Sass vs. Less](http://css-tricks.com/sass-vs-less/) - CSS-Tricks (or is it LESS still?)
 * [What is a CSS Framework Anyway?](http://vimeo.com/95734680) - Harry Roberts
 * [Sass for Web Designers](http://www.abookapart.com/products/sass-for-web-designers) - Dan Cederholm, A Book Apart
-* [Structuring a Sass Project](http://thesassway.com/beginner/how-to-structure-a-sass-project) (used this as a guide)
+* [Structuring a Sass Project](http://thesassway.com/beginner/how-to-structure-a-sass-project) - John W. Long
+* [CSS Guidelines](https://github.com/csswizardry/CSS-Guidelines#ids) - (yummy) by CSS Wizardry (Harry Roberts)
 
 ###Tools and Frameworks
 
 * [Compass](http://compassapp.com) - use this.
 * [Bourbon](http://bourbon.io) (and Neat and Bitters and Refills) - library of mixins, grid, and UI framework.
 * [Modular Scale](https://github.com/Team-Sass/modular-scale) - typographic scale thing that is awesome.
-* [Jeet.gs](http://jeet.gs) - a nice, simple grid I use.
+* [Jeet.gs](http://jeet.gs) - a nice, simple, enjoyable grid. Yes, grids can be enjoyable!
 * [Susy](http://susy.oddbird.net) - another grid, can be simple but more extensible than Jeet.
 
 ###Sassy Starter themes
@@ -125,6 +126,7 @@ There are lots of links in the code, esp. in _settings.scss, but here are some o
 
 ###Next Level
 
+* [Modular CSS Naming Conventions](http://thesassway.com/advanced/modular-css-naming-conventions) - (because naming things is the hardest part), John W. Long
 * [Even easier BEMing with Sass 3.3](http://www.alwaystwisted.com/post.php?s=2014-02-27-even-easier-bem-ing-with-sass-33) - Stuart Robson
 * [DRY-ing out your Sass mixins](http://alistapart.com/article/dry-ing-out-your-sass-mixins) - Sam Richard
 * [Shop Talk Show](http://shoptalkshow.com) - Podcast with Chris Coyier and Dave Rupert, all things front-end. This can get a little advanced, lots of Sass talk though.
@@ -133,3 +135,5 @@ There are lots of links in the code, esp. in _settings.scss, but here are some o
 * **[Sip](http://theolabrothers.com/sip/)** - Mac color picker app by the Ola Brothers. Omigosh I love it.
 * [Sidebar.io](http://sidebar.io) - this is how to stay up to date with the ever-changing web landscape.
 * [Eye Bleach](http://www.eyebleach.me/)
+* [.ish](http://bradfrostweb.com/demo/ish/) - Responsive site testing, Brad Frost
+
