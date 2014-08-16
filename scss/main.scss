@@ -1,26 +1,14 @@
-$primary-color: #4a8bbd;
-$secondary-color: #61ce3c;
 
-@mixin button($color) {
-	background-color: $color;
-	// Good!
-	@extend %btn;
+// ----
+// Main table of contents!
+// ----
 
-	&:hover {
-		background-color: darken($color, 30%);
-	}
-}
+// Import vendor (third party code) first because we'll may override some of these and they are not dependent on our code
+@import "vendor/all";
 
-// Potentially better!
-%btn {
-	padding: 1em 2em;
-	margin-bottom: 1em;
-}
+// Import modules first because they don't actually do anything (just settings and whatnot)
+@import "modules/all";
 
-.main-btn {
-	@include button($primary-color);
-}
+// Lastly import partials, cause those are the real deal styles (note they are in am important order in the 'all' file)
+@import "partials/all";
 
-.secondary-btn {
-	@include button($secondary-color);	
-}
