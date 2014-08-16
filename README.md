@@ -55,7 +55,8 @@ For minifying your code in production:
 
 	.main{color: #fff;background-color:#000;}.main p{width:10em;}
 
-
+###With Compass
+I also included a config.rb if you'd like to use Compass (recommended). After you install Compass and import it into your main.scss, ```cd``` into your project directory and run ```compass watch``` - you can configure the output, etc inside config.rb
 
 #Using this with WordPress
 
@@ -68,16 +69,20 @@ For minifying your code in production:
 	// Change the stylesheet location
 	function sassy_styles() {
 		// Note: change this to main.min.css for launch (after you have done #4 above)
+		
+		// If it's a child theme, add this too (rather than @import-ing in style.css):
+		// wp_enqueue_style('parent_styles', template_directory_uri() . '/style.css');
+
 		wp_enqueue_style('sassy_styles', get_stylesheet_directory_uri() . '/assets/css/main.css');
 	}
 	add_action('wp_enqueue_scripts', 'sassy_styles');
 
 	?>
 
-This adds the main.css stylesheet to your themes ```<head>```. We don't want to compile to style.css cause it's super precious to WordPress and best not to have it be a generated file (IMHO).
+This adds the main.css stylesheet to your themes ```<head>```. We don't want to compile to style.css because it's super precious to WordPress, and best not to have it be a generated file (IMHO).
 
 ##Without WordPress
-You can also use this set up without WordPress. Drop the 'assets' (or just 'styles') folder into your site, and make sure to include 'main.css' in your ```<head>```.
+You can also use this set up without WordPress. Download this repository into your project, rename the folder to 'assets' (for cleanliness' sake), and make sure to include 'main.css' in your ```<head>```.
 
 
 #Sassmeister Snippets
@@ -102,6 +107,8 @@ There are lots of links in the code, esp. in _settings.scss, but here are some o
 * [The Sass Way](http://thesassway.com/) - sooo much good stuff here from beginner to advanced
 * [Sass vs. Less](http://css-tricks.com/sass-vs-less/) - CSS-Tricks (or is it LESS still?)
 * [What is a CSS Framework Anyway?](http://vimeo.com/95734680) - Harry Roberts
+* [Sass for Web Designers](http://www.abookapart.com/products/sass-for-web-designers) - Dan Cederholm, A Book Apart
+* [Structuring a Sass Project](http://thesassway.com/beginner/how-to-structure-a-sass-project) (used this as a guide)
 
 ###Tools and Frameworks
 
@@ -111,12 +118,17 @@ There are lots of links in the code, esp. in _settings.scss, but here are some o
 * [Jeet.gs](http://jeet.gs) - a nice, simple grid I use.
 * [Susy](http://susy.oddbird.net) - another grid, can be simple but more extensible than Jeet.
 
-####Starter themes
-* [Underscore](https://github.com/automattic/_s) - the official Automattic starter theme now has Sass! I'm probably going to start using this.
-* [Roots Sass port](https://github.com/roots/roots-sass) - my current favorite. A little more advanced and comes with Bootstrap [can remove it](http://benword.com/using-roots-theme-without-bootstrap/).
+###Sassy Starter themes
+* [Underscores](https://github.com/automattic/_s) - the official Automattic starter theme now has Sass! I'm probably going to start using this.
+* [Roots Sass port](https://github.com/roots/roots-sass) - my current favorite (though I may move to _s). A little more advanced and comes with Bootstrap, [but you can remove it](http://benword.com/using-roots-theme-without-bootstrap/), I do.
 * [Bones](http://themble.com/bones) - wonderfully structured stylesheets. I learned so much from this!
 
 ###Next Level
-* [Structuring a Sass Project](http://thesassway.com/beginner/how-to-structure-a-sass-project) (used this as a guide)
+
 * [Even easier BEMing with Sass 3.3](http://www.alwaystwisted.com/post.php?s=2014-02-27-even-easier-bem-ing-with-sass-33) - Stuart Robson
 * [DRY-ing out your Sass mixins](http://alistapart.com/article/dry-ing-out-your-sass-mixins) - Sam Richard
+* [Shop Talk Show](http://shoptalkshow.com) - Podcast with Chris Coyier and Dave Rupert, all things front-end. This can get a little advanced, lots of Sass talk though.
+
+###Other Great Things
+* [Sip](http://theolabrothers.com/sip/) - Mac color picker app by the Ola Brothers
+* [Sidebar.io](http://sidebar.io) - this is how to stay up to date with the ever-changing web landscape.
