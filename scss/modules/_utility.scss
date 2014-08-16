@@ -1,7 +1,8 @@
-// Utlity classes for whatev.
+// Utlity classes for extends and whatev.
 
-// Instead of using an placeholder (%), use a class so that you can add it to your HTML if ever need be (or if you run into the @extend media query BS).
-.btn {
+// Instead of using a placeholder (%), you can also use a class and use it in your HTML if ever need be (esp if you run into the @extend media query issue).
+//.btn {
+%btn {
 	padding: $base $h4;
 	text-decoration: none;	
 }

@@ -3,7 +3,7 @@
 
 I feel like there aren't many super stripped down resources for starting out with Sass - everything seems to jump straight into mixins and frameworks and all that. This is a super simple setup for your Sass projects that can be used anywhere (did you notice all of my alliteration in this paragraph?).
 
-**IMPORTANT:** This is **not** a stand alone website or theme. It's an assets folder meant to be dropped into an existing theme or site.
+**IMPORTANT:** This is **not** a stand alone website or theme. It's a file structure meant to be dropped into an existing theme or site. There are very little included styles, just the scaffolding to get you started.
 
 _Disclaimer: Everyone does this differently, this is how I do it!_
 
@@ -120,7 +120,7 @@ There are lots of links in the code, esp. in _settings.scss, but here are some o
 
 ###Sassy Starter themes
 * [Underscores](https://github.com/automattic/_s) - the official Automattic starter theme now has Sass! I'm probably going to start using this.
-* [Roots Sass port](https://github.com/roots/roots-sass) - my current favorite (though I may move to _s). A little more advanced and comes with Bootstrap, [but you can remove it](http://benword.com/using-roots-theme-without-bootstrap/), I do.
+* [Roots Sass port](https://github.com/roots/roots-sass) - my current favorite (though I may move to the above). A little more advanced and comes with Bootstrap, [but you can remove it](http://benword.com/using-roots-theme-without-bootstrap/), I do.
 * [Bones](http://themble.com/bones) - wonderfully structured stylesheets. I learned so much from this!
 
 ###Next Level
@@ -130,5 +130,6 @@ There are lots of links in the code, esp. in _settings.scss, but here are some o
 * [Shop Talk Show](http://shoptalkshow.com) - Podcast with Chris Coyier and Dave Rupert, all things front-end. This can get a little advanced, lots of Sass talk though.
 
 ###Other Great Things
-* [Sip](http://theolabrothers.com/sip/) - Mac color picker app by the Ola Brothers
+* **[Sip](http://theolabrothers.com/sip/)** - Mac color picker app by the Ola Brothers. Omigosh I love it.
 * [Sidebar.io](http://sidebar.io) - this is how to stay up to date with the ever-changing web landscape.
+* [Eye Bleach](http://www.eyebleach.me/)
