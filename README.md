@@ -1,7 +1,7 @@
 
 #What is this?
 
-I feel like there aren't many super stripped down resources for starting out with Sass - everything seems to jump straight into mixins and frameworks and all that. This is a super simple setup for your Sass projects that can be used anywhere (did you notice all of my alliteration in this paragraph?).
+I feel like there aren't many super stripped down resources for starting out with Sass - everything seems to jump straight into mixins and frameworks and all that. Here's a ready to roll setup for your Sass projects that can be used anywhere!
 
 **IMPORTANT:** This is **not** a stand alone website or theme. It's a file structure meant to be dropped into an existing theme or site. There are very little included styles, just the scaffolding to get you started.
 
@@ -110,6 +110,7 @@ There are lots of links in the code, esp. in _settings.scss, but here are some o
 * [Sass for Web Designers](http://www.abookapart.com/products/sass-for-web-designers) - Dan Cederholm, A Book Apart
 * [Structuring a Sass Project](http://thesassway.com/beginner/how-to-structure-a-sass-project) - John W. Long
 * [CSS Guidelines](https://github.com/csswizardry/CSS-Guidelines#ids) - (yummy) by CSS Wizardry (Harry Roberts)
+* [Slides from Sassy WordPress](stuff.notlaura.com/slides/sassy_wp.html#/) - My talk at WordCamp Montreal (press escape to see a map of them).
 
 ###Tools and Frameworks
 
@@ -132,6 +133,7 @@ There are lots of links in the code, esp. in _settings.scss, but here are some o
 * [Shop Talk Show](http://shoptalkshow.com) - Podcast with Chris Coyier and Dave Rupert, all things front-end. This can get a little advanced, lots of Sass talk though.
 
 ###Other Great Things
+
 * **[Sip](http://theolabrothers.com/sip/)** - Mac color picker app by the Ola Brothers. Omigosh I love it.
 * [Sidebar.io](http://sidebar.io) - this is how to stay up to date with the ever-changing web landscape.
 * [Eye Bleach](http://www.eyebleach.me/)
