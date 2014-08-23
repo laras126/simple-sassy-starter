@@ -47,8 +47,8 @@ $dark-text: 		$black;
 
 // Then element-based names are nice too
 $link: 				$orange;
-$link-hover: 		darken($orange, 20%);
-$link-active: 		darken($orange, 60%);
+$link-hover: 		darken($link, 20%);
+$link-active: 		darken($link, 60%);
 
 
 
