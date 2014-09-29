@@ -1,4 +1,5 @@
 
+
 #What is this?
 
 I feel like there aren't many super stripped down resources for starting out with Sass - everything seems to jump straight into mixins and frameworks and all that. Here's a ready to roll setup for your Sass projects that can be used anywhere!
@@ -78,7 +79,7 @@ I also included a config.rb if you'd like to use Compass (recommended). After yo
 	add_action('wp_enqueue_scripts', 'sassy_styles');
 
 	?>
-
+```
 This adds the main.css stylesheet to your themes ```<head>```. We don't want to compile to style.css because it's super precious to WordPress, and best not to have it be a generated file (IMHO).
 
 ##Without WordPress
