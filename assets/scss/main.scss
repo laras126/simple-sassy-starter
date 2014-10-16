@@ -1,0 +1,61 @@
+
+// ----
+//
+// Table of Contents
+//
+// Import all our partials here. Don't add styles to this file, keep everything separated into the partials - it helps to keep the code in reusable chunks.
+//
+// ----
+
+
+//--
+// 1. Import the Compass functions we will use (similar in theory to including jQuery)
+// 	  Here we are including all of Compass, but you can import specific sets of functions, like compass/css3 or compass/lists
+//--
+
+@import "compass";
+
+
+
+//--
+// 2. Import vendor (third party code). 
+// 	  We do this first because we may override some of these and they are not dependent on our code
+//--
+
+@import "vendor/normalize";
+@import "vendor/animate"; // Including a plugin.
+
+
+
+//--
+// 3. Import our variables and mixins. 
+//    This code doesn't actually export anything, rather, the contents are called in our actual styles (coming next).
+//--
+
+@import "utility/settings";
+@import "utility/mixins";
+@import "utility/extends"; // Careful with the order here. If you are calling any extends in your mixins (potentially not advisable), you may have a problem here.
+
+
+
+//--
+// 4. Import our actual styles.
+//    See the files for descriptions of their contents.
+//--
+
+@import "partials/base";
+@import "partials/typography";
+@import "partials/forms";
+@import "partials/layout";
+@import "partials/content";
+
+
+
+//--
+// 5. Import shameful styles.
+//    Uh oh, what's this? A technique developed by the ingenious Harry Roberts (http://j.mp/shamecss), the _shame.scss contains all of the styles you know you shouldn't be doing. This might include !importants, hacky overrides, or verbose styles you know can be done differenty. The idea is that you have all of them in one place to address later.
+//--
+
+@import "shame";
+
+
