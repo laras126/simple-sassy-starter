@@ -50,10 +50,10 @@ Take it from me, the power of Sass lies in _partials_. A partial is a baby Sass 
 Hopefully that makes a little bit of sense. I've separated everything out like this:
 
 1. `main.scss` - this is where we include all of the partials. Don't write any styles in here.
-2. `vendor/` - this is third party code, you probably won't edit anything in here. I've included [normalize](necolas.github.io/normalize.css/) for our CSS reset, as well as [animate.css](daneden.github.io/animate.css/) (.scss in our case) for fun.
+2. `vendor/` - this is third party code, you probably won't edit anything in here. I've included [normalize](http://necolas.github.io/normalize.css/) for our CSS reset, as well as [animate.css](http://daneden.github.io/animate.css/) (.scss in our case) for fun.
 3. `utility/` - this code won't compile to anything, rather, these are the variables and functions you'll use throughout.
 4. `partials/` - this is where your styles go, hopefully the file names make sense. Change them to whatever you like!
-5. `_shame.scss` - put all styles you know you shouldn't be writing here (coined by Harry Roberts, [read more here](csswizardry.com/2013/04/shame-css/)).
+5. `_shame.scss` - put all styles you know you shouldn't be writing here (coined by Harry Roberts, [read more here](http://csswizardry.com/2013/04/shame-css/)).
 
 Note that order these are included in `main.scss` is very important. Read more in the code comments.
 
@@ -93,7 +93,7 @@ Sass itself is awesome, but the real reason it's awesome is because of the commu
 * [What is a CSS Framework Anyway?](http://vimeo.com/95734680) - Harry Roberts
 
 ###Reference
-* [CSS Guidelines](https://github.com/csswizardry/CSS-Guidelines#ids) - (yummy) by CSS Wizardry (Harry Roberts)
+* [CSS Guidelines](http://cssguidelin.es/) - (yummy) by CSS Wizardry (Harry Roberts)
 
 
 ###Tools and Frameworks
@@ -110,6 +110,7 @@ Sass itself is awesome, but the real reason it's awesome is because of the commu
 * [Even easier BEMing with Sass 3.3](http://www.alwaystwisted.com/post.php?s=2014-02-27-even-easier-bem-ing-with-sass-33) - Stuart Robson
 * [DRY-ing out your Sass mixins](http://alistapart.com/article/dry-ing-out-your-sass-mixins) - Sam Richard
 * [Shop Talk Show](http://shoptalkshow.com) - Podcast with Chris Coyier and Dave Rupert, all things front-end. This can get a little advanced, lots of Sass talk though.
+* [LibSass](http://libsass.org/) - a C implementation of a Sass compiler. It's fast.
 
 ###Other Great Things
 
