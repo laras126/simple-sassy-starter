@@ -2,21 +2,22 @@
 
 ##What is this?
 
-I feel like there aren't many super stripped down resources for starting out with Sass - everything seems to jump straight into mixins and frameworks and all that. Here's a ready to roll setup for your Sass projects that can be used anywhere!
+I feel like there aren't many super stripped down resources for starting out with Sass* - everything seems to jump straight into mixins and frameworks and all that. Here's a ready to roll setup for your Sass projects that can be used anywhere!
 
 Jump to a certain section if you like:
 
 * [Installing Sass and Compass](#installing-sass-and-compass)
 * [Getting Started](#getting-started)
-* [About these Files](#about-these-files)
+* [About these Files](#about-these-files) **
 * [Sassy Snippets](#sassy-snippets)
 * [Further Reading](#further-reading)
 
-_Disclaimer: Everyone does this differently, this is how I do it!_
+<p>* &nbsp;Sass, not SASS (<a href="http://sassnotsass.com">proof</a>).<br>
+** Everyone does this differently, this is how I do it!</p>
 
 ##Installing Sass and Compass
 
-Very Mac-centric. Windows users can find [instructions here](sass-lang.com/install).
+Very Mac-centric instructions follow. Windows users can find [instructions here](sass-lang.com/install).
 
 ###Install Sass
 
