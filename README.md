@@ -17,7 +17,7 @@ Jump to a certain section if you like:
 
 ##Installing Sass and Compass
 
-Very Mac-centric instructions follow. Windows users can find [instructions here](sass-lang.com/install).
+Very Mac-centric instructions follow. Windows users can find [instructions here](http://sass-lang.com/install).
 
 ###Install Sass
 
