@@ -1,0 +1,66 @@
+/*
+Error: File to import not found or unreadable: partials/base.
+       Load paths:
+         Compass::SpriteImporter
+         /Users/laraschenck/Sites/simple-sassy-starter/scss
+         /Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets
+         /Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/susy-2.1.3/sass
+        on line 46 of /Users/laraschenck/Sites/simple-sassy-starter/scss/main.scss
+
+41: //--
+42: // 4. Import our actual styles.
+43: //    See the files for descriptions of their contents.
+44: //--
+45: 
+46: @import "partials/base";
+47: @import "partials/typography";
+48: @import "partials/forms";
+49: @import "partials/layout";
+50: @import "partials/content";
+51: 
+
+Backtrace:
+/Users/laraschenck/Sites/simple-sassy-starter/scss/main.scss:46
+/Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sass-3.4.0/lib/sass/tree/import_node.rb:66:in `rescue in import'
+/Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sass-3.4.0/lib/sass/tree/import_node.rb:45:in `import'
+/Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sass-3.4.0/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sass-3.4.0/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:294:in `visit_import'
+/Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sass-3.4.0/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:152:in `block in visit'
+/Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sass-3.4.0/lib/sass/stack.rb:79:in `block in with_base'
+/Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sass-3.4.0/lib/sass/stack.rb:115:in `with_frame'
+/Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sass-3.4.0/lib/sass/stack.rb:79:in `with_base'
+/Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:152:in `visit'
+/Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sass-3.4.0/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sass-3.4.0/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sass-3.4.0/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:161:in `block in visit_children'
+/Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:173:in `with_environment'
+/Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:160:in `visit_children'
+/Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sass-3.4.0/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:180:in `visit_root'
+/Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sass-3.4.0/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:151:in `visit'
+/Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sass-3.4.0/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sass-3.4.0/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sass-3.4.0/lib/sass/tree/root_node.rb:20:in `render'
+/Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sass-3.4.0/lib/sass/engine.rb:268:in `render'
+/Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sass-3.4.0/lib/sass/plugin/compiler.rb:486:in `update_stylesheet'
+/Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sass-3.4.0/lib/sass/plugin/compiler.rb:214:in `block in update_stylesheets'
+/Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sass-3.4.0/lib/sass/plugin/compiler.rb:208:in `each'
+/Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sass-3.4.0/lib/sass/plugin/compiler.rb:208:in `update_stylesheets'
+/Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sass-3.4.0/lib/sass/plugin/compiler.rb:464:in `on_file_changed'
+/Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/sass-3.4.0/lib/sass/plugin/compiler.rb:324:in `block in watch'
+/Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/listen-1.1.6/lib/listen/listener.rb:236:in `call'
+/Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/listen-1.1.6/lib/listen/listener.rb:236:in `on_change'
+/Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/listen-1.1.6/lib/listen/listener.rb:271:in `block in initialize_adapter'
+/Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/listen-1.1.6/lib/listen/adapter.rb:244:in `call'
+/Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/listen-1.1.6/lib/listen/adapter.rb:244:in `report_changes'
+/Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/listen-1.1.6/lib/listen/adapter.rb:313:in `poll_changed_directories'
+/Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/listen-1.1.6/lib/listen/adapter.rb:289:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: partials/base.\A        Load paths:\A          Compass::SpriteImporter\A          /Users/laraschenck/Sites/simple-sassy-starter/scss\A          /Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets\A          /Users/laraschenck/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/susy-2.1.3/sass\A         on line 46 of /Users/laraschenck/Sites/simple-sassy-starter/scss/main.scss\A \A 41: //--\A 42: // 4. Import our actual styles.\A 43: //    See the files for descriptions of their contents.\A 44: //--\A 45: \A 46: @import \"partials/base\";\A 47: @import \"partials/typography\";\A 48: @import \"partials/forms\";\A 49: @import \"partials/layout\";\A 50: @import \"partials/content\";\A 51: "; }
