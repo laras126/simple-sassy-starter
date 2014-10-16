@@ -1,7 +1,22 @@
-// Hey, button! This is very simple.
+
+// ---
+// Mixins
+// ---
+
+// Careful! Every value in a mixin should be dynamic, otherwise your code will get fat. For static values, use an extend. For example:
+
+// Good button
 @mixin button($background, $font-color: $light-text) {
 	@extend .btn;
 	background-color: $background;
 	color: $font-color;
 }
 
+// Bad button
+
+// @mixin button($background, $font-color: $light-text) {
+// 	background-color: $background;
+// 	color: $font-color;
+// 	padding: $base $h4; => This should be in an extend, correct me if I'm wrong!
+// 	text-decoration: none;	
+// }

@@ -1,9 +1,16 @@
-// Utlity classes for extends and whatev.
 
-// Instead of using a placeholder (%), you can also use a class and use it in your HTML if ever need be (esp if you run into the @extend media query issue).
-//.btn {
+// ---
+// Extends
+// ---
+
+// These are little packages of code you can include within other selectors instead of rewriting the styles all the time. For example:
+
 %btn {
 	padding: $base $h4;
 	text-decoration: none;	
 }
 
+// What's the %?
+// It's called a "placeholder selector" and does not compile to your CSS. You can also use a regular . to use that class in your HTML. 
+// Confused? Me too.
+// Read: http://css-tricks.com/the-extend-concept/

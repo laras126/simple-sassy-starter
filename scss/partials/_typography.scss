@@ -1,2 +1,78 @@
-// h1, h3, h3, h4 and whatnot go here!
 
+// ---
+// Typography
+// ---
+
+// I'm going to include some styles here, cause I like how I do it.
+// Note that I also include a placeholder selector (see _extends.scss) for each. This is so I can easily change the size of other type elements that may not necessarily be h1's, et al.
+
+
+// There are some important things you can do for progressive enhancement if you are using webfonts. Read more:
+//
+
+body {
+	font-family: $body-font;
+	line-height: $line-height-base;
+}
+
+a, 
+a:visited,
+a:link {
+	color: $link-color;
+	text-decoration: none;
+
+	&:hover, &:focus {
+		color: $link-hover;
+	}
+
+	&:active {
+		color: $link-active;
+	}
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: $line-height-base;
+	font-family: $heading-font;
+	margin-bottom: 0;
+}
+
+// Including some placeholder extends for utility use.
+
+h1, %h1 {
+	font-size: $h1;
+	margin-top: $h3;
+}
+
+h2, %h2 {
+	font-size: $h2;
+	margin-top: $h4;
+}
+
+h3, %h3 {
+	font-size: $h3;
+	margin-top: $h4;
+}
+
+h4, %h4 {
+	font-size: $h4;
+	margin-top: $base;
+}
+
+h5, %h5 {
+	font-size: $h5;
+	margin-top: $base;
+}
+
+h6, %h6 {
+	font-size: $sml;
+	margin-top: $base;
+}
+
+p {
+	margin-top: $base;
+	font-size: $base;
+}
+
+small {
+	font-size: $sml;
+}

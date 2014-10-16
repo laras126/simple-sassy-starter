@@ -40,11 +40,11 @@ Note that you can totally use an app like [Codekit](http://incident57.com/codeki
 2. Type `compass watch` and press Enter.
 3. More exciting! You should see something like this `>>> Compass is watching for changes. Press Ctrl-C to Stop.`
 
-###What are all of these files?!
+###About These Files
 
-I know, right? Why can't I just write everything in style.css like I used to?
+Omg there are so many! WTF?! Why can't I just write everything in style.css like I used to?
 
-Well, let me tell you, the power of Sass lies in _partials_ (IMO). A partial is a baby Sass file that starts with an underscore and is included in the main stylesheet. You know how your stylesheets before got to be, like, 1,500 lines long? Partials are a way to separate out that code into sections, and encourage you to write more reusable and ["modular"](http://en.wikipedia.org/wiki/Modular_design) (hello, buzzword) code.
+Take it from me, the power of Sass lies in _partials_. A partial is a baby Sass file that starts with an underscore and is included in the main stylesheet. You know how your stylesheets before got to be, like, 1,500 lines long? Partials are a way to separate out that code into sections, and encourage you to write more reusable and ["modular"](http://en.wikipedia.org/wiki/Modular_design) (hello, buzzword) code.
 
 Hopefully that makes a little bit of sense. I've separated everything out like this:
 
@@ -73,7 +73,8 @@ If you want to play around a bit before diving into your real code, or if you ha
 
 
 ##Further Reading
-There are lots of links in the code, esp. in _settings.scss, but here are some others:
+
+Sass itself is awesome, but the real reason it's awesome is because of the community. Here's a big dump of links and articles I think are helpful.
 
 ###Sass Learning
 
@@ -111,8 +112,8 @@ There are lots of links in the code, esp. in _settings.scss, but here are some o
 
 ###Other Great Things
 
-* **[Sip](http://theolabrothers.com/sip/)** - Mac color picker app by the Ola Brothers. Omigosh I love it.
+* [Sip](http://theolabrothers.com/sip/) - Mac color picker app by the Ola Brothers. Might be my favorite thing in the world. Well, besides an expertly made Negroni.
 * [Sidebar.io](http://sidebar.io) - this is how to stay up to date with the ever-changing web landscape.
-* [Eye Bleach](http://www.eyebleach.me/)
-* [.ish](http://bradfrostweb.com/demo/ish/) - Responsive site testing, Brad Frost
+* [Eye Bleach](http://www.eyebleach.me/) - lolz
+* [.ish](http://bradfrostweb.com/demo/ish/) - Responsive site testing, Brad Frost (and everything he writes, ever)
 

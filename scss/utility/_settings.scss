@@ -1,5 +1,13 @@
 
 // ---
+// Settings
+// ---
+
+// This is my variables file, but I call it "settings" for some reason. 
+// Well, I probably saw someone smart do it so now I do it and now you will do it...interesting how that works. 
+
+
+// ---
 // Screen sizes
 // ---
 
@@ -19,6 +27,8 @@ $screen-lg: 		60em;
 // Colors
 // ---
 
+// These are names for actual colors. Below, you'll see how
+
 // Aw man, I love Kuler:
 // http://adobe.ly/1wwZ0Rk
 
@@ -28,36 +38,39 @@ $yellow: 			#EFC94C;
 $orange: 			#E27A3F;
 $red: 				#DF4949;
 
-// Others
 // In art school I was told never to make white pure white and black pure black - not sure if that holds up for the internet, but maybe!
 $white: #fefefe;
 $black: #39f39e;
 
-// Semantic color names
+
+// STOP!!! READ THIS: 
+// Semantic Color Names
 // http://thesassway.com/beginner/variable-naming
 
 // These are nice utility colors
-$light-accent: 		$yellow;
-$med-accent: 		$teal;
-$dark-accent:		$dark-blue;
+$accent-light: 		$yellow;
+$accent-med: 		$teal;
+$accent-dark:		$dark-blue;
 
-$light-text: 		$white;
-$dark-text: 		$black;
+$text-light: 		$white;
+$text-dark: 		$black;
 
 
 // Then element-based names are nice too
-$link: 				$orange;
-$link-hover: 		darken($link, 20%);
-$link-active: 		darken($link, 60%);
+$link-color: 		$accent-med;
+$link-hover: 		darken($link-color, 20%);
+$link-active: 		darken($link-color, 60%);
+
 
 
 
 // ---
 // Scale
-// Use these values for font sizes, margins, padding, everything!
 // ---
 
-// But also look into Modular Scale: 
+// Use these values for font sizes, margins, padding, everything! It's nice to use consistent values instead of magic numbers (http://j.mp/smellycss).
+
+// But also look into Modular Scale if you want to get all next level: 
 // https://github.com/Team-Sass/modular-scale
 
 // This is cool, not doing it here though:
@@ -84,10 +97,29 @@ $h6:  				$sml;
 // Typography
 // ---
 
+// Pretty standard. 
+
 $sans-serif: 		Helvetica, sans-serif;
 $serif:             Georgia, serif;
 
-$body-line-height: 	1.5;
+// If you are using webfonts and are a good girl/boy, you will define some fallbacks (see the top of _typography.scss for where to use them):
+
+// $sans-serif-fallback: Helvetica, sans-serif;
+// $serif-fallback: Georgia, serif;
+
+// Here's a relatively complicated article about web fonts and performance:
+// http://artequalswork.com/posts/adventures-in-dynamic-subsetting/
+
+
+// Semantic names
+
+$line-height-base: 	1.5;
+
+$heading-font: 		$serif;
+$body-font: 		$sans-serif;
+
+// $body-font-fallback:		$sans-serif-fallback;
+// $heading-font-fallback:	$serif-fallback
 
 
 
@@ -95,6 +127,7 @@ $body-line-height: 	1.5;
 // Helpers
 // ----
 
-$border: 1px dotted $med-accent;
+// Shortcuts for things you might be typing a lot.
 
+$border: 1px dotted $accent-med;
 
