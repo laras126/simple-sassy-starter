@@ -28,9 +28,9 @@ Very Mac-centric instructions follow. Windows users can find [instructions here]
 
 Seriously, that's it! Except these things rarely work the first time...
 
-If you are having trouble, copy and paste your error into our good friend Google. You might also take a read through these installation instructions.
+If you are having trouble, copy and paste your error into our good friend Google. You might also take a read through [these installation instructions](http://sass-lang.com/install).
 
-Note that you can totally use an app like [Codekit](http://incident57.com/codekit/) or [Hammer](http://hammerformac.com/), but I think this is a good opportunity to get make things hard for yourself in the command line (it will pay off in the long run, I promise!).
+Note that you can totally use an app like [Codekit](http://incident57.com/codekit/) or [Hammer](http://hammerformac.com/), but I think this is a good opportunity to get your hands dirty in the command line. Make things hard for yourself - it will pay off in the long run, I promise!
 
 
 ##Getting Started
@@ -116,6 +116,6 @@ Sass itself is awesome, but the real reason it's awesome is because of the commu
 
 * [Sip](http://theolabrothers.com/sip/) - Mac color picker app by the Ola Brothers. Might be my favorite thing in the world. Well, besides an expertly made Negroni.
 * [Sidebar.io](http://sidebar.io) - this is how to stay up to date with the ever-changing web landscape.
+* [.ish](http://bradfrostweb.com/demo/ish/) - Responsive site testing, Brad Frost (read everything he writes, ever)
 * [Eye Bleach](http://www.eyebleach.me/) - lolz
-* [.ish](http://bradfrostweb.com/demo/ish/) - Responsive site testing, Brad Frost (and everything he writes, ever)
 
