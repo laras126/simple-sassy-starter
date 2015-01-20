@@ -98,7 +98,7 @@ Sass itself is awesome, but the real reason it's awesome is because of the commu
 
 ###Tools and Frameworks
 
-* [Compass](http://compassapp.com) - This project is set up with Compass. While you don't have to use Compass functions per se, I like the compiler and think it's easier to configure.
+* [Compass](http://compass-style.org) - This project is set up with Compass. While you don't have to use Compass functions per se, I like the compiler and think it's easier to configure.
 * [Bourbon](http://bourbon.io) (and Neat and Bitters and Refills) - library of mixins, grid, and UI framework.
 * [Modular Scale](https://github.com/Team-Sass/modular-scale) - typographic scale thing that is awesome. By Scott Kellum.
 * [Susy](http://susy.oddbird.net) - A fantastic, semantic grid. It can be very robust or simple.
