@@ -32,6 +32,9 @@ If you are having trouble, copy and paste your error into our good friend Google
 
 Note that you can totally use an app like [Codekit](http://incident57.com/codekit/) or [Hammer](http://hammerformac.com/), but I think this is a good opportunity to get your hands dirty in the command line. Make things hard for yourself - it will pay off in the long run, I promise!
 
+####Not sure if you have Sass and Compass already installed? 
+
+Test by typing in ```sass -v``` then ```compass -v```. If you get a ```-bash``` error, then you don't. If you get something like ```Sass 3.4.0 (Selective Steve)```, proceed to the next section!
 
 ##Getting Started
 
@@ -92,8 +95,11 @@ Sass itself is awesome, but the real reason it's awesome is because of the commu
 * [Sass vs. Less](http://css-tricks.com/sass-vs-less/) - CSS-Tricks (or is it LESS still?)
 * [What is a CSS Framework Anyway?](http://vimeo.com/95734680) - Harry Roberts
 
-###Reference
+###Styleguides
 * [CSS Guidelines](http://cssguidelin.es/) - (yummy) by CSS Wizardry (Harry Roberts)
+* [Sass Guidelines](http://sass-guidelin.es/) - (also yummy) by Hugo Giraudel
+
+(note that both of those guides are quite opinionated, use as you see fit!)
 
 
 ###Tools and Frameworks

@@ -55,6 +55,10 @@ $accent-dark:		$dark-blue;
 $text-light: 		$white;
 $text-dark: 		$black;
 
+$notice-success:	$teal;
+$notice-info:		lighten($dark-blue, 20%);
+$notice-danger:		$red;
+$notice-warning:	$orange;
 
 // Then element-based names are nice too
 $link-color: 		$accent-med;
@@ -81,7 +85,7 @@ $link-active: 		darken($link-color, 60%);
 // About rems:
 // http://snook.ca/archives/html_and_css/font-size-with-rem
 
-$base:  			1rem;
+$base:  			1.1rem;
 $sml:  				$base*0.8;
 
 $h1:  				$base*2.6;
@@ -129,5 +133,4 @@ $body-font: 		$sans-serif;
 
 // Shortcuts for things you might be typing a lot.
 
-$border: 1px dotted $accent-med;
-
+$accent-border: 1px dotted $accent-med;

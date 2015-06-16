@@ -3,20 +3,77 @@
 // Mixins
 // ---
 
-// Careful! Every value in a mixin should be dynamic, otherwise your code will get fat. For static values, use an extend. For example:
 
-// Good button
-@mixin button($background, $font-color: $light-text) {
-	@extend .btn;
-	background-color: $background;
-	color: $font-color;
+// These are mixins!
+
+
+// Media Queries
+// http://css-tricks.com/conditional-media-query-mixins/
+
+// A breakpoint mixin is super useful for nesting within other selectors:
+
+$MQs: true;
+
+@mixin bp($point) {
+	@if ($MQs) {
+		// These screen sized map to the screen variables in _varibles.scss
+		$bp-xs: "(min-width: #{$screen-xs})";
+		$bp-sm: "(min-width: #{$screen-sm})";
+		$bp-md: "(min-width: #{$screen-md})";
+		$bp-lg: "(min-width: #{$screen-lg})";
+
+		@if $point == xs {
+			@media #{$bp-xs} { @content; }
+		}
+		@else if $point == sml {
+			@media #{$bp-sm} { @content; }
+		}
+		@else if $point == med {
+			@media #{$bp-md} { @content; }
+		}
+		@else if $point == lg {
+			@media #{$bp-lg} { @content; }
+		}
+	}
 }
 
-// Bad button
 
-// @mixin button($background, $font-color: $light-text) {
-// 	background-color: $background;
-// 	color: $font-color;
-// 	padding: $base $h4; => This should be in an extend, correct me if I'm wrong!
-// 	text-decoration: none;	
-// }
+// Rotate color schemes
+
+// I like to have a mixin for rotating background and text colors.
+@mixin rotate($text: $rotate-text, $bkgd: $rotate-bkgd, $link-clr: $accent-med) {
+    background-color: $bkgd;
+    color: $text;
+
+    a,
+    a:visited{
+      color: $link-clr;
+    }
+
+    a:hover {
+  		color: darken($link-clr, 20%);
+    }
+}
+
+
+// Uppercase, slightly letterspaced text. Could use for headings.
+// Mainly a timesaver.
+
+@mixin upperspace() {
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+
+// Love me a clearfix.
+
+@mixin clearfix() {
+	&:before,
+    &:after {
+        content: " "; // 1
+        display: table; // 2
+    }
+    &:after {
+	   clear: both;
+    }
+}

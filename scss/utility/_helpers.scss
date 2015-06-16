@@ -1,0 +1,32 @@
+
+// ----
+// Helper classes
+// ----
+
+// These are non-semantic classes for quick formatting. In theory, it's best to remove these for production, but you know, in theory.
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+
+// I also like to have some spacer classes. Again, scoff at their non-semantic-ness if you feel like it, but I find them immensely useful, particularly when working within a CMS.
+// Note that I use the $base unit from the sizing scale set in _variables.scss.
+
+.spacer-top {
+	margin-top: $base;
+}
+
+.spacer-bot {
+	margin-bottom: $base;
+}
+
+// Add right and left if you like, I haven't found them very useful though.

@@ -8,3 +8,77 @@
 // See some responsive form strategies here:
 // http://bradfrost.github.io/this-is-responsive/patterns.html
 // Actually, just use all of those strategies.
+
+// Here are the basic form selectors I usually style:
+// (much inspired by the setup from http://themble.com/bones)
+
+// Remove the blue outline from Chrome
+*:focus {
+    outline: 0;
+}
+
+label, select {
+	display: block;
+}
+
+label {
+}
+
+input[type="search"] {
+	// Maybe add a nice search icon in the background?
+}
+
+textarea {
+	overflow: auto;
+	vertical-align: top;
+}
+
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"] {
+
+	width: 100%;	
+	border: $accent-border;
+
+	&:focus {
+		border-color: $accent-med;
+	}
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+	line-height: normal;
+	cursor: pointer;
+}
+
+input[type="file"],
+input[type="image"],
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+input[type="radio"],
+input[type="checkbox"] {
+}
+
+input[type="submit"],
+button {
+	
+}
+
+select:focus,
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus {
+
+}

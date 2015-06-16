@@ -1,0 +1,24 @@
+// ---
+// Buttons
+// ---
+
+// Here's a simple button mixin. Instead of keeping it in utility/_mixin.scss, I'm putting it here so we can easily reference it without going into a new file.
+
+@mixin button($background, $text-color: $text-light) {
+	background-color: $background;
+	color: $text-color;
+	padding: $base $h4;
+	text-decoration: none;	
+}
+
+// A note about naming: instead of .default-btn, I like to have .btn first so that it's more easily scannable. Change it up as you like!
+
+// Default button
+.btn-default {
+	@include button($accent-dark); // You'll notice there isn't a $text-color parameter here. That's because we defined a default as $text-light.
+}
+
+// Info button, maybe for "Read More" or something.
+.btn-info {
+	@include button($notice-info, $text-dark);
+}

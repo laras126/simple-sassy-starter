@@ -23,31 +23,31 @@
 //--
 
 @import "vendor/normalize";
-@import "vendor/animate"; // Including a plugin.
+@import "vendor/animate"; // Including a plugin. You'll notice I've commented out all of the animations except for those I'm using (in this case, .bounce) - the main.css will get pretty fat with everything in there, so only keep what you need.
 
 
 
 //--
 // 3. Import our variables and mixins. 
-//    This code doesn't actually export anything, rather, the contents are called in our styles (coming next).
+//    Other than the helpers file, this code doesn't actually compile to anything - just utilities to be used throughout the partials.
 //--
 
-@import "utility/settings";
+@import "utility/variables";
 @import "utility/mixins";
-@import "utility/extends"; // Careful with the order here. If you are calling any extends in your mixins (potentially not advisable), you may have a problem here.
+@import "utility/helpers";
 
 
 
 //--
 // 4. Import our actual styles.
-//    See the files for descriptions of their contents.
+//    See the files for descriptions of their contents. You can add any other partials you see fit - for example, WordPress might have a _posts.scss partial.
 //--
 
 @import "partials/typography";
+@import "partials/buttons";
 @import "partials/forms";
-@import "partials/layout";
-@import "partials/content";
-
+@import "partials/nav";
+@import "partials/base";
 
 
 //--
