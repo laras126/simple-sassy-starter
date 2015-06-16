@@ -54,11 +54,15 @@ Hopefully that makes a little bit of sense. I've separated everything out like t
 
 1. `main.scss` - this is where we include all of the partials. Don't write any styles in here.
 2. `vendor/` - this is third party code, you probably won't edit anything in here. I've included [normalize](http://necolas.github.io/normalize.css/) for our CSS reset, as well as [animate.css](http://daneden.github.io/animate.css/) (.scss in our case) for fun.
-3. `utility/` - this code won't compile to anything, rather, these are the variables and functions you'll use throughout.
-4. `partials/` - this is where your styles go, hopefully the file names make sense. Change them to whatever you like!
+3. `utility/` - other than `_helpers.scss` this code won't compile to anything, rather, these are the variables and functions you'll use throughout your partials.
+4. `partials/` - this is where your styles go. Add partials and change their names to whatever makes sense for you, just be sure to update and include them in `main.scss`.
 5. `_shame.scss` - put all styles you know you shouldn't be writing here (coined by Harry Roberts, [read more here](http://csswizardry.com/2013/04/shame-css/)).
 
 Note that order these are included in `main.scss` is very important. Read more in the code comments.
+
+####Where my grid at?!
+
+I didn't include a grid here. You're on your own for that. Grids are a very personal choice. [Susy](http://susy.oddbird.net) is a great option - I'd look into that! [Jeet](https://github.com/mojotech/jeet) is also cute.
 
 ##Write Some Styles
 

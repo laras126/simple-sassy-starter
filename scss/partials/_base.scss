@@ -17,11 +17,20 @@
 	 // http://compass-style.org/reference/compass/css3/
 }
 
+// ---
+// General Selectors
+// ---
+
+img {
+	max-width: 100%;
+}
 
 
 // ---
 // Header
 // ---
+
+// You might want to split this into your own partial!
 
 
 
@@ -30,7 +39,10 @@
 // Main Site Content
 // ---
 
-
+.wrapper {
+	max-width: $screen-md; // I'm using a pretty narrow wrapper, you might want this to be $screen-lg depending on your layout.
+	margin: 0 auto;
+}
 
 
 // ---

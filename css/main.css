@@ -636,3 +636,12 @@ input[type="checkbox"] {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  max-width: 48em;
+  margin: 0 auto;
+}
