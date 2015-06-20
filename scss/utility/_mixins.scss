@@ -41,7 +41,7 @@ $MQs: true;
 // Rotate color schemes
 
 // I like to have a mixin for rotating background and text colors.
-@mixin rotate($text: $rotate-text, $bkgd: $rotate-bkgd, $link-clr: $accent-med) {
+@mixin rotate($bkgd: $rotate-bkgd, $text: $rotate-text, $link-clr: $rotate-link) {
     background-color: $bkgd;
     color: $text;
 

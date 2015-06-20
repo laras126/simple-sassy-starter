@@ -10,15 +10,19 @@
 
 // Base mobile nav styles here.
 
-
+// Using the rotate mixin!
+.nav {
+	@include rotate($accent-med, $text-light);
+	@include horizontal-list();
+}
 
 // --
 // Large Screens
 // --
 
 // A breakpoint for the large screen nav.
-// @include bp(med) {
+// .nav {
+//		@include bp(med) {
 
-	
-
+// 		}
 // }

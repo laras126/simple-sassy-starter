@@ -7,13 +7,24 @@
 // Note that I also include a placeholder selector (see _extends.scss) for each. This is so I can easily change the size of other type elements that may not necessarily be h1's, et al.
 
 
-// There are some important things you can do for progressive enhancement if you are using webfonts. Read more:
-//
+// It's a great idea to use Webfont Loader instead of just including your webfonts them in the <head>. In that case, you'd use the $body-font-fallback and apply the real $body-font once the active class is added with the loader. That's what's in the commented section.
+// OMG I'm so confused. Read more here: https://github.com/typekit/webfontloader
 
+// Or, you know, just use this:
 body {
 	font-family: $body-font;
 	line-height: $line-height-base;
 }
+
+// Webfont loader magic (uncomment the above body style if using this):
+// body {
+// 	font-family: $body-font-fallback;
+// 	line-height: $line-height-base;
+
+// 	.wf-active & {
+// 		font-family: $body-font;
+// 	}
+// }
 
 a, 
 a:visited,
@@ -36,34 +47,32 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 0;
 }
 
-// Including some placeholder extends for utility use.
-
-h1, %h1 {
+h1 {
 	font-size: $h1;
 	margin-top: $h3;
 }
 
-h2, %h2 {
+h2 {
 	font-size: $h2;
 	margin-top: $h4;
 }
 
-h3, %h3 {
+h3 {
 	font-size: $h3;
 	margin-top: $h4;
 }
 
-h4, %h4 {
+h4 {
 	font-size: $h4;
 	margin-top: $base;
 }
 
-h5, %h5 {
+h5 {
 	font-size: $h5;
 	margin-top: $base;
 }
 
-h6, %h6 {
+h6 {
 	font-size: $sml;
 	margin-top: $base;
 }

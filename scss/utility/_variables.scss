@@ -77,7 +77,7 @@ $link-active: 		darken($link-color, 60%);
 // But also look into Modular Scale if you want to get all next level: 
 // https://github.com/Team-Sass/modular-scale
 
-// This is cool, not doing it here though:
+// This is a cool thought:
 // http://css-tricks.com/rems-ems/
 
 // (let's clap for Chris Coyier for a sec, please)
@@ -101,7 +101,7 @@ $h6:  				$sml;
 // Typography
 // ---
 
-// Pretty standard. 
+// Pretty standard.
 
 $sans-serif: 		Helvetica, sans-serif;
 $serif:             Georgia, serif;
@@ -134,3 +134,8 @@ $body-font: 		$sans-serif;
 // Shortcuts for things you might be typing a lot.
 
 $accent-border: 1px dotted $accent-med;
+
+// The most commonly rotated color:
+$rotate-text: 	$text-light;
+$rotate-bkgd: 	$accent-med;
+$rotate-link: 	$accent-light;

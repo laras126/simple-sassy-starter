@@ -631,6 +631,47 @@ input[type="checkbox"] {
   cursor: pointer;
 }
 
+.nav {
+  background-color: #45b29d;
+  color: #fefefe;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.nav a,
+.nav a:visited {
+  color: #efc94c;
+}
+.nav a:hover {
+  color: #c49a11;
+}
+.nav:before, .nav:after {
+  content: " ";
+  display: table;
+}
+.nav:after {
+  clear: both;
+}
+.nav li {
+  list-style-image: none;
+  list-style-type: none;
+  margin-left: 0;
+  white-space: nowrap;
+  display: inline;
+  float: left;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.nav li:first-child, .nav li.first {
+  padding-left: 0;
+}
+.nav li:last-child {
+  padding-right: 0;
+}
+.nav li.last {
+  padding-right: 0;
+}
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
