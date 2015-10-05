@@ -1,10 +1,9 @@
 
 // ---
-// Settings
+// Variables
 // ---
 
-// This is my variables file, but I call it "settings" for some reason. 
-// Well, I probably saw someone smart do it so now I do it and now you will do it...interesting how that works. 
+// Welcome to the variables file!
 
 
 // ---
@@ -74,16 +73,10 @@ $link-active: 		darken($link-color, 60%);
 
 // Use these values for font sizes, margins, padding, everything! It's nice to use consistent values instead of magic numbers (http://j.mp/smellycss).
 
-// But also look into Modular Scale if you want to get all next level: 
-// https://github.com/Team-Sass/modular-scale
-
-// This is a cool thought:
-// http://css-tricks.com/rems-ems/
-
-// (let's clap for Chris Coyier for a sec, please)
-
-// About rems:
+// Also, rems are awesome. Here's an article about them:
 // http://snook.ca/archives/html_and_css/font-size-with-rem
+// And a small pen I made that explains them: http://codepen.io/laras126/pen/YyWLgz
+
 
 $base:  			1.1rem;
 $sml:  				$base*0.8;
