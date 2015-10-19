@@ -13,8 +13,7 @@
 // Border box all the things:
 
 * {
-	 @include box-sizing(border-box); // Be sure to take advantage of Compass for CSS3 styles that require vendor prefixes:
-	 // http://compass-style.org/reference/compass/css3/
+	 box-sizing: border-box;
 }
 
 // ---
