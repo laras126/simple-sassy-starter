@@ -7,7 +7,7 @@
 @mixin button($background, $text-color: $text-light) {
 	background-color: $background;
 	color: $text-color;
-	padding: $base $h4;
+	padding: $size-base $size-h4;
 	text-decoration: none;
 }
 
