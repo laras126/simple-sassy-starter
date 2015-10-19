@@ -9,26 +9,15 @@
 
 
 //--
-// 1. Import the Compass functions we will use (similar in theory to including jQuery)
-// 	  Here we are including all of Compass, but you can import specific sets of functions, like compass/css3 or compass/lists
-//--
-
-@import "compass";
-
-
-
-//--
-// 2. Import vendor (third party code). 
+// 1. Import vendor (third party code). 
 // 	  We do this first because we may override some of these and they are not dependent on our code
 //--
 
 @import "vendor/normalize";
-@import "vendor/animate"; // Including a plugin. You'll notice I've commented out all of the animations except for those I'm using (in this case, .bounce) - the main.css will get pretty fat with everything in there, so only keep what you need.
-
 
 
 //--
-// 3. Import our variables and mixins. 
+// 2. Import our variables and mixins. 
 //    Other than the helpers file, this code doesn't actually compile to anything - just utilities to be used throughout the partials.
 //--
 
@@ -37,9 +26,8 @@
 @import "utility/helpers";
 
 
-
 //--
-// 4. Import our actual styles.
+// 3. Import our actual styles.
 //    See the files for descriptions of their contents. You can add any other partials you see fit - for example, WordPress might have a _posts.scss partial.
 //--
 
@@ -51,7 +39,7 @@
 
 
 //--
-// 5. Import shameful styles.
+// 4. Import shameful styles.
 //    Uh oh, what's this? A technique developed by the ingenious Harry Roberts (http://j.mp/shamecss), the _shame.scss contains all of the styles you know you shouldn't be doing. This might include !importants, hacky overrides, or verbose styles you know can be done differenty. The idea is that you have all of them in one place to address later.
 //--
 
