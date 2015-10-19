@@ -16,7 +16,8 @@
 // "Start with the small screen first, then expand until it looks like shit. Time for a breakpoint!"
 // -Stephen Hay
 
-$screen-sm: 		30em;
+$screen-xs: 		28em;
+$screen-sm: 		35em;
 $screen-md: 		48em;
 $screen-lg: 		60em;
 
@@ -78,15 +79,15 @@ $link-active: 		darken($link-color, 60%);
 // And a small pen I made that explains them: http://codepen.io/laras126/pen/YyWLgz
 
 
-$base:  			1.1rem;
-$sml:  				$base*0.8;
+$size-base:  		1.1rem;
+$size-sml:  		$size-base*0.8;
 
-$h1:  				$base*2.6;
-$h2:  				$base*2.2;
-$h3:  				$base*1.8;
-$h4:  				$base*1.4;
-$h5:  				$base*1.2;
-$h6:  				$sml;
+$size-h1:  			$size-base*2.6;
+$size-h2:  			$size-base*2.2;
+$size-h3:  			$size-base*1.8;
+$size-h4:  			$size-base*1.4;
+$size-h5:  			$size-base*1.2;
+$size-h6:  			$size-sml;
 
 
 
