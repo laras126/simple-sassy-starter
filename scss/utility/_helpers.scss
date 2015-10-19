@@ -19,14 +19,14 @@
 
 
 // I also like to have some spacer classes. Again, scoff at their non-semantic-ness if you feel like it, but I find them immensely useful, particularly when working within a CMS.
-// Note that I use the $base unit from the sizing scale set in _variables.scss.
+// Note that I use the $size-base unit from the sizing scale set in _variables.scss.
 
 .spacer-top {
-	margin-top: $base;
+	margin-top: $size-base;
 }
 
 .spacer-bot {
-	margin-bottom: $base;
+	margin-bottom: $size-base;
 }
 
 // Add right and left if you like, I haven't found them very useful though.
