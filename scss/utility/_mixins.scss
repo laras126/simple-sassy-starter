@@ -25,10 +25,10 @@ $MQs: true;
 		@if $point == xs {
 			@media #{$bp-xs} { @content; }
 		}
-		@else if $point == sml {
+		@else if $point == sm {
 			@media #{$bp-sm} { @content; }
 		}
-		@else if $point == med {
+		@else if $point == md {
 			@media #{$bp-md} { @content; }
 		}
 		@else if $point == lg {
